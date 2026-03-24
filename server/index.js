@@ -177,11 +177,17 @@ app.post('/api/contact', async (req, res) => {
   res.status(201).json({ ok: true })
 })
 
-const port = Number(process.env.PORT || 5000)
-connectMongo().finally(() => {
+connectMongo();
+
+// We only start the server directly if we are not running inside Netlify Functions
+if (!process.env.NETLIFY) {
+  const port = Number(process.env.PORT || 5000)
   app.listen(port, () => {
     // eslint-disable-next-line no-console
     console.log(`[server] listening on http://localhost:${port}`)
   })
-})
+}
+
+module.exports = app;
+
 
