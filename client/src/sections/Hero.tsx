@@ -117,7 +117,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
             className="mx-auto mt-8 sm:mt-10 max-w-[650px] text-center text-[15px] sm:text-[17px] text-slate-500 font-medium leading-[1.7] md:leading-[1.8] px-4"
           >
-            4 years of practical experience in desktop app development and 1 year as a dedicated web app developer, I bring expertise and creativity to every project.
+            I am a passionate 3rd-year student and aspiring Full Stack Developer, eager to transform complex problems into elegant, user-friendly web solutions through clean code and creative design.
           </motion.p>
 
           {/* CTA Button */}
