@@ -45,7 +45,7 @@ export function Hero() {
             <div className="relative h-[88px] w-[88px] sm:h-[104px] sm:w-[104px] rounded-full p-[3px] bg-gradient-to-tr from-orange-400 to-orange-200 shadow-md">
               {/* Fallback avatar matching the visual theme, to be replaced by the user's actual image later. */}
               <img
-                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Ashmit&backgroundColor=ffdfbf&top=shortHairShortFlat&hairColor=2c1b18&facialHairProbability=0&style=circle"
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix&backgroundColor=ffdfbf&hairColor=2c1b18"
                 alt="Profile Avatar"
                 className="h-full w-full rounded-full object-cover border-2 border-white"
               />
